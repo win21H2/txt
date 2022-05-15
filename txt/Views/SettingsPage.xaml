@@ -65,7 +65,7 @@
                             <xaml:ElementTheme>Default</xaml:ElementTheme>
                         </RadioButton.CommandParameter>
                     </RadioButton>
-                    <TextBlock Text="Created by 324Hz and licensed under the MIT license | ©324Hz 2022"
+                    <TextBlock Text="Created by 324Hz and licensed under the MIT license | © 324Hz 2022"
                         FontSize="15"
                         FontFamily="Consolas"
                         HorizontalAlignment="Left"

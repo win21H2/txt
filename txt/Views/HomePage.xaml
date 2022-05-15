@@ -13,23 +13,17 @@
             <RowDefinition Height="50"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBlock Text="Home"
+        <TextBlock Text="txt"
                    Grid.Row="1"
                    FontSize="30"
                    FontFamily="Consolas"
                    HorizontalAlignment="Center"></TextBlock>
-        <TextBlock Text="Welcome to txt!"
+        <TextBlock Text="The open-source text editor"
                    Grid.Row="2"
                    FontSize="15"
                    FontFamily="Consolas"
                    HorizontalAlignment="Center"
                    Margin="0,0,0,0"></TextBlock>
-        <TextBlock Text="There is nothing much here but this will hopefully be an open-source text editor"
-                   Grid.Row="10"
-                   FontSize="15"
-                   FontFamily="Consolas"
-                   HorizontalAlignment="Center"
-                   Margin="0,25,0,0"></TextBlock>
 
         <TextBox AcceptsReturn="True"
                  TextWrapping="Wrap"
@@ -54,12 +48,44 @@
                 FontFamily="Consolas"
                 FontSize="11"
                 CornerRadius="2"
-                Margin="73,0,0,0"
+                Margin="75,0,0,0"
                 Click="Settings_Click"
                 Grid.Row="1"
                 Height="30"
                 Width="70"/>
-        <TextBlock Text="Created by 324Hz and licensed under the MIT license | ©324Hz 2022"
+        <Button Content="Save"
+                Style="{StaticResource AccentButtonStyle}"
+                FontFamily="Consolas"
+                FontSize="11"
+                CornerRadius="2"
+                Margin="150,0,0,0"
+                Click="Save_Click"
+                Grid.Row="1"
+                Height="30"
+                Width="70"/>
+        
+        <Button Content="Create"
+                Style="{StaticResource AccentButtonStyle}"
+                FontFamily="Consolas"
+                FontSize="11"
+                CornerRadius="2"
+                Margin="225,0,0,0"
+                Click="Create_Click"
+                Grid.Row="1"
+                Height="30"
+                Width="70"/>
+        <Button Content="Write"
+                Style="{StaticResource AccentButtonStyle}"
+                FontFamily="Consolas"
+                FontSize="11"
+                CornerRadius="2"
+                Margin="300,0,0,0"
+                Click="Write_Click"
+                Grid.Row="1"
+                Height="30"
+                Width="70"/>
+
+        <TextBlock Text="Created by 324Hz and licensed under the MIT license | © 324Hz 2022"
                    Grid.Row="18"
                    FontSize="15"
                    FontFamily="Consolas"
