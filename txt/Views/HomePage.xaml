@@ -6,23 +6,65 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Style="{StaticResource PageStyle}"
     mc:Ignorable="d">
-    <Grid x:Name="ContentArea" Margin="{StaticResource MediumLeftRightMargin}">
+    <Grid x:Name="ContentArea"
+          Margin="{StaticResource SmallLeftTopRightBottomMargin}">
         <Grid.RowDefinitions>
-            <RowDefinition Height="48" />
-            <RowDefinition Height="*" />
+            <RowDefinition Height="1"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
+        <TextBlock Text="Home"
+                   Grid.Row="1"
+                   FontSize="30"
+                   FontFamily="Consolas"
+                   HorizontalAlignment="Center"></TextBlock>
+        <TextBlock Text="Welcome to txt!"
+                   Grid.Row="2"
+                   FontSize="15"
+                   FontFamily="Consolas"
+                   HorizontalAlignment="Center"
+                   Margin="0,0,0,0"></TextBlock>
+        <TextBlock Text="There is nothing much here but this will hopefully be an open-source text editor"
+                   Grid.Row="10"
+                   FontSize="15"
+                   FontFamily="Consolas"
+                   HorizontalAlignment="Center"
+                   Margin="0,25,0,0"></TextBlock>
 
-        <TextBlock
-            Grid.Row="0"
-            x:Uid="Home_Title"
-            Style="{StaticResource PageTitleStyle}" />
-        <Grid
-            Grid.Row="1" 
-            Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
-            <!--
-                The SystemControlPageBackgroundChromeLowBrush background represents where you should place your content. 
-                Place your content here.
-            -->
-        </Grid>
+        <TextBox AcceptsReturn="True"
+                 TextWrapping="Wrap"
+                 VerticalAlignment="Center"
+                 Height="700"
+                 Width="1800"
+                 Grid.Row="10"
+                 Name="TextBox"></TextBox>
+
+        <Button Content="Home"
+                Style="{StaticResource AccentButtonStyle}"
+                FontFamily="Consolas"
+                FontSize="11"
+                CornerRadius="2" 
+                Margin="0,0,0,0"
+                Click="Home_Click"
+                Grid.Row="1"
+                Height="30"
+                Width="70"/>
+        <Button Content="Settings"
+                Style="{StaticResource AccentButtonStyle}"
+                FontFamily="Consolas"
+                FontSize="11"
+                CornerRadius="2"
+                Margin="73,0,0,0"
+                Click="Settings_Click"
+                Grid.Row="1"
+                Height="30"
+                Width="70"/>
+        <TextBlock Text="Created by 324Hz and licensed under the MIT license | ©324Hz 2022"
+                   Grid.Row="18"
+                   FontSize="15"
+                   FontFamily="Consolas"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Bottom"
+                   Margin="0,50,0,0"></TextBlock>
     </Grid>
 </Page>
