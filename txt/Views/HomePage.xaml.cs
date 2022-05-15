@@ -21,8 +21,8 @@ namespace txt.Views {
         private void Home_Click(object sender, RoutedEventArgs e) {
             this.Frame.Navigate(typeof(HomePage));
         }
-        private void Save_Click(object sender, RoutedEventArgs e) {
-
+        private void About_Click(object sender, RoutedEventArgs e) {
+            this.Frame.Navigate(typeof(AboutPage));
         }
 
         private async void buttonfilepick_Click(object sender, RoutedEventArgs e) {
