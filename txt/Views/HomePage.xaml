@@ -13,6 +13,7 @@
             <RowDefinition Height="50"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
+
         <TextBlock Text="txt"
                    Grid.Row="1"
                    FontSize="30"
@@ -28,10 +29,9 @@
         <TextBox AcceptsReturn="True"
                  TextWrapping="Wrap"
                  VerticalAlignment="Center"
-                 Height="700"
-                 Width="1800"
-                 Grid.Row="10"
-                 Name="TextBox"></TextBox>
+                 Height="644"
+                 Grid.Row="2"
+                 Name="TextBox"/>
 
         <Button Content="Home"
                 Style="{StaticResource AccentButtonStyle}"
@@ -64,8 +64,6 @@
                 Height="30"
                 Width="70"/>
 
-
-
         <Button Content="Select a file"
                 Style="{StaticResource AccentButtonStyle}"
                 FontFamily="Consolas"
@@ -87,8 +85,7 @@
                    Width="300"
                    Name="TextBlockoutput"></TextBlock>
 
-
-        <TextBlock Text="Created by 324Hz and licensed under the MIT license | © 324Hz 2022"
+        <TextBlock Text="| Licensed under the MIT license | © 324Hz 2022 |"
                    Grid.Row="18"
                    FontSize="15"
                    FontFamily="Consolas"

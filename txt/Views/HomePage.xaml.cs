@@ -35,7 +35,7 @@ namespace txt.Views {
                 TextBlockoutput.Text = "User Selected File:" + file.Name;
             }
             else {
-                TextBlockoutput.Text = "Try Again";
+                TextBlockoutput.Text = "Error. Try again!";
             }
         }
     }
