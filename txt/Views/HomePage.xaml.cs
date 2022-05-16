@@ -24,6 +24,9 @@ namespace txt.Views {
         private void About_Click(object sender, RoutedEventArgs e) {
             this.Frame.Navigate(typeof(AboutPage));
         }
+        private void Version_Click(object sender, RoutedEventArgs e) {
+            this.Frame.Navigate(typeof(VersionPage));
+        }
 
         private async void buttonfilepick_Click(object sender, RoutedEventArgs e) {
             FileOpenPicker openPicker = new FileOpenPicker();

@@ -23,5 +23,17 @@ namespace txt.Views {
         public VersionPage() {
             this.InitializeComponent();
         }
+        private void Settings_Click(object sender, RoutedEventArgs e) {
+            this.Frame.Navigate(typeof(SettingsPage));
+        }
+        private void Home_Click(object sender, RoutedEventArgs e) {
+            this.Frame.Navigate(typeof(HomePage));
+        }
+        private void About_Click(object sender, RoutedEventArgs e) {
+            this.Frame.Navigate(typeof(AboutPage));
+        }
+        private void Version_Click(object sender, RoutedEventArgs e) {
+            this.Frame.Navigate(typeof(VersionPage));
+        }
     }
 }

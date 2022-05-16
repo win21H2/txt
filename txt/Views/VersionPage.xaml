@@ -8,7 +8,80 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid x:Name="ContentArea"
+          Margin="{StaticResource SmallLeftTopRightBottomMargin}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Version"
+                   Grid.Row="1"
+                   FontSize="30"
+                   FontFamily="Consolas"
+                   HorizontalAlignment="Center"></TextBlock>
+        <TextBlock Text="Anything related to versions go here. Please check the current version of this software in the About page and look for the corresponding UUID here."
+                   Grid.Row="4"
+                   FontSize="15"
+                   FontFamily="Consolas"
+                   HorizontalAlignment="Center"
+                   TextWrapping="WrapWholeWords"
+                   TextAlignment="Center"
+                   Margin="0,20,0,0"></TextBlock>
+        <!--&#x0a;&#x0a; USE FOR LINEBREAK--> 
+        <TextBlock Text="Version UUID e67b1ab1-9ddf-428f-ba77-434c2b34134e"
+                   Grid.Row="5"
+                   FontSize="15"
+                   FontFamily="Consolas"
+                   HorizontalAlignment="Center"
+                   Margin="0,200,0,0"></TextBlock>
 
+        <Button Content="Home"
+                Style="{StaticResource AccentButtonStyle}"
+                FontFamily="Consolas"
+                FontSize="11"
+                CornerRadius="2" 
+                Margin="0,0,0,0"
+                Click="Home_Click"
+                Grid.Row="1"
+                Height="30"
+                Width="100"/>
+        <Button Content="About"
+                Style="{StaticResource AccentButtonStyle}"
+                FontFamily="Consolas"
+                FontSize="11"
+                CornerRadius="2" 
+                Margin="110,0,0,0"
+                Click="About_Click"
+                Grid.Row="1"
+                Height="30"
+                Width="100"/>
+        <Button Content="Version"
+                Style="{StaticResource AccentButtonStyle}"
+                FontFamily="Consolas"
+                FontSize="11"
+                CornerRadius="2" 
+                Margin="220,0,0,0"
+                Click="Version_Click"
+                Grid.Row="1"
+                Height="30"
+                Width="100"/>
+        <Button Content="Settings"
+                Style="{StaticResource AccentButtonStyle}"
+                FontFamily="Consolas"
+                FontSize="11"
+                CornerRadius="2"
+                Margin="330,0,0,0"
+                Click="Settings_Click"
+                Grid.Row="1"
+                Height="30"
+                Width="100"/>
+        <TextBlock Text="| Licensed under the MIT license | © 324Hz 2022 |"
+                   Grid.Row="18"
+                   FontSize="15"
+                   FontFamily="Consolas"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Bottom"
+                   Margin="0,50,0,0"></TextBlock>
     </Grid>
 </Page>

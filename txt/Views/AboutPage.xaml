@@ -19,7 +19,8 @@
                    FontSize="30"
                    FontFamily="Consolas"
                    HorizontalAlignment="Center"></TextBlock>
-        <TextBlock Text="This application will hopefully turn into a open-source text editor which (although might not look nice) will be able to edit and save text files and do many other things.&#x0a;&#x0a;This application is a UWP application written in C# and uses the .NET Framework 4.5.2.&#x0a;&#x0a;Application version information:&#x0a;&#x0a;Version 0.0.0.1/a1&#x0a;&#x0a;Build a1"
+        <!--&#x0a; USE FOR LINEBREAK-->
+        <TextBlock Text="This application will hopefully turn into a open-source text editor which (although might not look nice) will be able to edit and save text files and do many other things.&#x0a;&#x0a;This application is a UWP application written in C# and uses the .NET Framework 4.5.2.&#x0a;&#x0a;V 1.0.1.1&#x0a;&#x0a;Version UUID e67b1ab1-9ddf-428f-ba77-434c2b34134e&#x0a;&#x0a;"
                    Grid.Row="4"
                    FontSize="15"
                    FontFamily="Consolas"
@@ -27,13 +28,6 @@
                    TextWrapping="WrapWholeWords"
                    TextAlignment="Center"
                    Margin="0,20,0,0"></TextBlock>
-        <TextBlock Text="My main website: https://324hz.dev&#x0a;&#x0a;My blog website: https://324-lines-of-code.netlify.app&#x0a;&#x0a;View the repository of this project: https://github.com/win21H2/txt"
-                   Grid.Row="3"
-                   FontSize="15"
-                   FontFamily="Consolas"
-                   HorizontalAlignment="Center"
-                   TextAlignment="Center"
-                   Margin="0,440,0,0"></TextBlock>
 
         <Button Content="Home"
                 Style="{StaticResource AccentButtonStyle}"
@@ -55,12 +49,22 @@
                 Grid.Row="1"
                 Height="30"
                 Width="100"/>
+        <Button Content="Version"
+                Style="{StaticResource AccentButtonStyle}"
+                FontFamily="Consolas"
+                FontSize="11"
+                CornerRadius="2" 
+                Margin="220,0,0,0"
+                Click="Version_Click"
+                Grid.Row="1"
+                Height="30"
+                Width="100"/>
         <Button Content="Settings"
                 Style="{StaticResource AccentButtonStyle}"
                 FontFamily="Consolas"
                 FontSize="11"
                 CornerRadius="2"
-                Margin="220,0,0,0"
+                Margin="330,0,0,0"
                 Click="Settings_Click"
                 Grid.Row="1"
                 Height="30"
