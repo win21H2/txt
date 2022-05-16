@@ -95,7 +95,7 @@
                    Width="300"
                    Name="TextBlockoutput"></TextBlock>
 
-        <TextBlock Text="| Licensed under the MIT license | © 324Hz 2022 |"
+        <TextBlock Text="| Licensed under the MIT license | © 324Hz 2022 | v1.1.1.2 |"
                    Grid.Row="18"
                    FontSize="15"
                    FontFamily="Consolas"

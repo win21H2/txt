@@ -10,13 +10,13 @@
   <Identity
     Name="095DBF03-30D8-4F4C-ACA7-D4ACBDC2E922"
     Publisher="CN=markt"
-    Version="1.0.0.0" />
+    Version="0.1.1.0" />
 
   <mp:PhoneIdentity PhoneProductId="095DBF03-30D8-4F4C-ACA7-D4ACBDC2E922" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>txt</DisplayName>
-    <PublisherDisplayName>markt</PublisherDisplayName>
+    <PublisherDisplayName>324Hz</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
