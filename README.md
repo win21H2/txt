@@ -13,9 +13,13 @@ Milestones
 
 -------------------------------------------------
 
-05/15/202
+05/15/2022
 >  - Added a "Home" button which will be defaulted for every page except the settings page<br> 
 >  - Added a TextBox in the middle for text input <br>
 >  - Added a file picker with the filters of a .txt file only (which means you can only open .txt files) although it only displays the text file and does not display the contents of the .txt file 
 
 -------------------------------------------------
+
+05/16/2022
+> - Added "Version" page which displays all of the versions
+> - Aded "About" page which will display more information such as legal information
