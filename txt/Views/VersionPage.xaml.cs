@@ -19,19 +19,9 @@ namespace txt.Views {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class AboutPage : Page {
-
-        public AboutPage() {
+    public sealed partial class VersionPage : Page {
+        public VersionPage() {
             this.InitializeComponent();
-        }
-        private void Settings_Click(object sender, RoutedEventArgs e) {
-            this.Frame.Navigate(typeof(SettingsPage));
-        }
-        private void Home_Click(object sender, RoutedEventArgs e) {
-            this.Frame.Navigate(typeof(HomePage));
-        }
-        private void About_Click(object sender, RoutedEventArgs e) {
-            this.Frame.Navigate(typeof(AboutPage));
         }
     }
 }
