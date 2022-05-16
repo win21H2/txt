@@ -35,5 +35,15 @@ namespace txt.Views {
         private void Version_Click(object sender, RoutedEventArgs e) {
             this.Frame.Navigate(typeof(VersionPage));
         }
+        private async void V0111_Click(object sender, RoutedEventArgs e) {
+            var dialog = new Windows.UI.Popups.MessageDialog(
+                        "V 0.1.1.1 \n This update marks the first release of this software \n \n \n Notes \n \n Added the settings page, home page, about page, and version page \n Started working on the text editor format and layout",
+                        "e67b1ab1-9ddf-428f-ba77-434c2b34134e");
+
+            dialog.Commands.Add(new Windows.UI.Popups.UICommand("Close") { Id = 1 });
+            dialog.CancelCommandIndex = 1;
+
+            var result = await dialog.ShowAsync();
+        }        
     }
 }

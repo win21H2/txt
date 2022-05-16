@@ -28,13 +28,18 @@
                    TextWrapping="WrapWholeWords"
                    TextAlignment="Center"
                    Margin="0,20,0,0"></TextBlock>
-        <!--&#x0a;&#x0a; USE FOR LINEBREAK--> 
-        <TextBlock Text="Version UUID e67b1ab1-9ddf-428f-ba77-434c2b34134e"
-                   Grid.Row="5"
-                   FontSize="15"
-                   FontFamily="Consolas"
-                   HorizontalAlignment="Center"
-                   Margin="0,200,0,0"></TextBlock>
+        <!--&#x0a;&#x0a; USE FOR LINEBREAK-->
+        <Button Content="V 0.1.1.1 e67b1ab1-9ddf-428f-ba77-434c2b34134e"
+                Style="{StaticResource AccentButtonStyle}"
+                FontFamily="Consolas"
+                CornerRadius="2" 
+                Margin="0,100,0,0"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Top"
+                Click="V0111_Click"
+                Grid.Row="4"
+                Height="30"
+                Width="400"/>
 
         <Button Content="Home"
                 Style="{StaticResource AccentButtonStyle}"
