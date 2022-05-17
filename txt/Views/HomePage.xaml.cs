@@ -14,7 +14,7 @@ namespace txt.Views {
     public sealed partial class HomePage : Page {
         public HomeViewModel ViewModel { get; } = new HomeViewModel();
 
-        public HomePage(Windows.ApplicationModel.Activation.IActivatedEventArgs args) {
+        public HomePage() {
             InitializeComponent();
         }
         private void Settings_Click(object sender, RoutedEventArgs e) {
@@ -42,23 +42,6 @@ namespace txt.Views {
             else {
                 TextBlockoutput.Text = "Error. Try again!";
             }
-        }
-
-        private async void App_CloseRequested(object sender, SystemNavigationCloseRequestedPreviewEventArgs e) {
-            var deferral = e.GetDeferral();
-            var dialog = new MessageDialog("Are you sure you want to exit?", "Exit");
-            var confirmCommand = new UICommand("Yes");
-            var cancelCommand = new UICommand("No");
-            dialog.Commands.Add(confirmCommand);
-
-            dialog.Commands.Add(cancelCommand);
-
-            if (await dialog.ShowAsync() == cancelCommand) {
-                //cancel close by handling the event
-                e.Handled = true;
-            }
-
-            deferral.Complete();
         }
     }
 }
