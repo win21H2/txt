@@ -66,12 +66,31 @@
                             <xaml:ElementTheme>Default</xaml:ElementTheme>
                         </RadioButton.CommandParameter>
                     </RadioButton>
+
+                    
+                    <!--PASSOWRD BOX-->
+                    <TextBlock x:Name="Psswrd"
+                               Foreground="#dcddde"
+                               Margin="15"
+                               FontFamily="Consolas"
+                               FontSize="15"/>
+                    <PasswordBox x:Name="PasswordBox1"
+                                 PlaceholderText="Password"
+                                 Width="300"
+                                 MaxLength="20"
+                                 PasswordChar="#"
+                                 PasswordRevealMode="Peek"
+                                 HorizontalAlignment="Left"
+                                 PasswordChanged="PasswordBox1_PasswordChanged" />
+                    <!--PASSWORD BOX-->
+
+                    
                     <TextBlock Text="| Created by 324Hz and licensed under the MIT license | © 324Hz 2022 | v0.1.0.12 |"
                         FontSize="15"
                         FontFamily="Consolas"
                         HorizontalAlignment="Left"
                         VerticalAlignment="Bottom"
-                        Margin="0,10,0,0"></TextBlock>
+                        Margin="0,20,0,0"></TextBlock>
                 </StackPanel>
             </StackPanel>
         </StackPanel>

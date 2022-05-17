@@ -7,6 +7,7 @@
     Style="{StaticResource PageStyle}"
     Background="#36393f"
     mc:Ignorable="d">
+    <!--LINE BREAK: &#x0a;&#x0a;-->
     <Grid x:Name="ContentArea"
           Margin="{StaticResource SmallLeftTopRightBottomMargin}">
         <Grid.RowDefinitions>
@@ -19,19 +20,21 @@
                    FontSize="30"
                    FontFamily="Consolas"
                    HorizontalAlignment="Center"></TextBlock>
-        <!--&#x0a; USE FOR LINEBREAK-->
-        <TextBlock Text="A open-source text editor"
+        <TextBlock Text="A open-source text editor&#x0a;&#x0a;Made with ❤️ from GitHub and 324Hz"
                    Grid.Row="2"
                    FontSize="15"
                    FontFamily="Consolas"
                    HorizontalAlignment="Center"
+                   TextAlignment="Center"
                    Margin="0,0,0,0"></TextBlock>
 
         <TextBox AcceptsReturn="True"
                  TextWrapping="Wrap"
-                 VerticalAlignment="Center"
-                 Height="644"
+                 VerticalAlignment="Top"
+                 Margin="0,100,0,0"
+                 Height="760"
                  Grid.Row="2"
+                 Background="#36393f"
                  Name="TextBox"/>
 
         <Button Content="Home"

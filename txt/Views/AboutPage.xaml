@@ -10,7 +10,6 @@
     Background="#36393f">
     <Grid x:Name="ContentArea"
           Margin="{StaticResource SmallLeftTopRightBottomMargin}">
-        
         <Grid.RowDefinitions>
             <RowDefinition Height="1"/>
             <RowDefinition Height="50"/>
@@ -31,7 +30,7 @@
                    TextAlignment="Center"
                    Width="700"
                    Margin="0,20,0,0"></TextBlock>
-        <TextBlock Text="A small message from the developer: &#x0a;&#x0a;If you notice any bugs, please create a report on GitHub as I wont be accepting bug reports via email. I hope you find using this text editor quite easy!&#x0a;--324Hz-- &#x0a;&#x0a;&#x0a;&#x0a;A bit more about this application&#x0a;&#x0a;I am currently planning to make this application into a full text editor almost like Notepad although txt will (hopefully) have a lot more features than Notepad. It might even have a built in CLI for customization although that likely will not happen as of now."
+        <TextBlock Text="A small message from the developer: &#x0a;&#x0a;If you notice any bugs, please create a report on GitHub as I wont be accepting bug reports via email. I hope you find using this text editor quite easy!&#x0a;--324Hz-- &#x0a;&#x0a;&#x0a;&#x0a;A bit more about this application&#x0a;&#x0a;I am currently planning to make this application into a full text editor almost like Notepad although txt will (hopefully) have a lot more features than Notepad. As of now, it has built in autocorrect and copy and paste functionality."
                    Grid.Row="4"
                    FontSize="15"
                    FontFamily="Consolas"
@@ -40,7 +39,9 @@
                    TextAlignment="Center"
                    Width="700"
                    Margin="0,180,0,0"></TextBlock>
-
+        <!--TESTING STAGES-->
+        <WebView Source="https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/web-view" />
+        <!--TESTING STAGES-->
         <Button Content="Home"
                 Background="#ff6363"
                 FontFamily="Consolas"
