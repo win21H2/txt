@@ -23,3 +23,10 @@ Milestones
 05/16/2022
 > - Added "Version" page which displays all of the versions
 > - Aded "About" page which will display more information such as legal information
+
+-------------------------------------------------
+
+TODO
+> - Add a system which asks if the user wants to exit the application (most likely with a "save" button to save the text that the user inputted
+> - Figure out a system for formatting the text for the description so that it does not do a weird line break for example in a straight line, the text shows up fine but if I press enter something along the lines of the below happens:
+![image](https://user-images.githubusercontent.com/92825997/168715041-705e2b50-0078-43bb-ad87-9479b2ef5dfb.png)
