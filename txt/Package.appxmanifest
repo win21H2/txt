@@ -5,12 +5,13 @@
   xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
   xmlns:genTemplate="http://schemas.microsoft.com/appx/developer/templatestudio"
-  IgnorableNamespaces="uap mp genTemplate">
+  xmlns:iot="http://schemas.microsoft.com/appx/manifest/iot/windows10"
+  IgnorableNamespaces="uap mp genTemplate iot">
 
 	<Identity
 	  Name="095DBF03-30D8-4F4C-ACA7-D4ACBDC2E922"
 	  Publisher="CN=324Hz"
-	  Version="0.1.1.0" />
+	  Version="0.1.12.0" />
 
 	<mp:PhoneIdentity PhoneProductId="095DBF03-30D8-4F4C-ACA7-D4ACBDC2E922" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
@@ -52,6 +53,9 @@
 
 	<Capabilities>
 		<Capability Name="internetClient" />
+		<iot:Capability Name="systemManagement"/>
+		<uap:Capability Name="removableStorage"/>
+		<uap:Capability Name="picturesLibrary"/>
 	</Capabilities>
 
 	<genTemplate:Metadata>

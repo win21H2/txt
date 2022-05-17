@@ -6,7 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Style="{StaticResource PageStyle}"
+    Style="{StaticResource PageStyle}"    
     Background="#36393f">
     <Grid x:Name="ContentArea"
           Margin="{StaticResource SmallLeftTopRightBottomMargin}">
@@ -39,9 +39,7 @@
                    TextAlignment="Center"
                    Width="700"
                    Margin="0,180,0,0"></TextBlock>
-        <!--TESTING STAGES-->
-        <WebView Source="https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/web-view" />
-        <!--TESTING STAGES-->
+
         <Button Content="Home"
                 Background="#ff6363"
                 FontFamily="Consolas"

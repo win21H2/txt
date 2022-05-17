@@ -16,6 +16,7 @@
             <RowDefinition Height="50"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
+        
         <TextBlock Text="Version"
                    Grid.Row="1"
                    FontSize="30"
