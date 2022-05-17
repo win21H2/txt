@@ -9,6 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     <Grid x:Name="ContentArea"
           Margin="{StaticResource SmallLeftTopRightBottomMargin}">
+        
         <Grid.RowDefinitions>
             <RowDefinition Height="1"/>
             <RowDefinition Height="50"/>
@@ -20,17 +21,27 @@
                    FontFamily="Consolas"
                    HorizontalAlignment="Center"></TextBlock>
         <!--&#x0a; USE FOR LINEBREAK-->
-        <TextBlock Text="This application will hopefully turn into a open-source text editor which (although might not look nice) will be able to edit and save text files and do many other things.&#x0a;&#x0a;This application is a UWP application written in C# and uses the .NET Framework 4.5.2.&#x0a;&#x0a;V 0.1.1.1&#x0a;&#x0a;Version UUID e67b1ab1-9ddf-428f-ba77-434c2b34134e&#x0a;&#x0a;"
+        <TextBlock Text="This application will hopefully turn into a open-source text editor which (although might not look nice) will be able to edit and save text files and do many other things.&#x0a;&#x0a;This application is a UWP application written in C# as well as XAML and uses the .NET Framework"
                    Grid.Row="4"
                    FontSize="15"
                    FontFamily="Consolas"
                    HorizontalAlignment="Center"
                    TextWrapping="WrapWholeWords"
                    TextAlignment="Center"
+                   Width="700"
                    Margin="0,20,0,0"></TextBlock>
+        <TextBlock Text="A small message from the developer: &#x0a;&#x0a;If you notice any bugs, please create a report on GitHub as I wont be accepting bug reports via email. I hope you find using this text editor quite easy!&#x0a;--324Hz-- &#x0a;&#x0a;&#x0a;&#x0a;A bit more about this application&#x0a;&#x0a;I am currently planning to make this application into a full text editor almost like Notepad although txt will (hopefully) have a lot more features than Notepad. It might even have a built in CLI for customization although that likely will not happen as of now."
+                   Grid.Row="4"
+                   FontSize="15"
+                   FontFamily="Consolas"
+                   HorizontalAlignment="Center"
+                   TextWrapping="WrapWholeWords"
+                   TextAlignment="Center"
+                   Width="700"
+                   Margin="0,180,0,0"></TextBlock>
 
         <Button Content="Home"
-                Style="{StaticResource AccentButtonStyle}"
+                Background="#ff6363"
                 FontFamily="Consolas"
                 FontSize="11"
                 CornerRadius="2" 
@@ -40,7 +51,7 @@
                 Height="30"
                 Width="100"/>
         <Button Content="About"
-                Style="{StaticResource AccentButtonStyle}"
+                Background="#ff6363"
                 FontFamily="Consolas"
                 FontSize="11"
                 CornerRadius="2" 
@@ -50,7 +61,7 @@
                 Height="30"
                 Width="100"/>
         <Button Content="Version"
-                Style="{StaticResource AccentButtonStyle}"
+                Background="#ff6363"
                 FontFamily="Consolas"
                 FontSize="11"
                 CornerRadius="2" 
@@ -60,7 +71,7 @@
                 Height="30"
                 Width="100"/>
         <Button Content="Settings"
-                Style="{StaticResource AccentButtonStyle}"
+                Background="#ff6363"
                 FontFamily="Consolas"
                 FontSize="11"
                 CornerRadius="2"

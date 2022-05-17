@@ -20,16 +20,18 @@
                    FontSize="30"
                    FontFamily="Consolas"
                    HorizontalAlignment="Center"></TextBlock>
-        <TextBlock Text="Anything related to versions go here. Please check the current version of this software in the About page and look for the corresponding UUID here."
+        <TextBlock Text="Please check the current version of this software in the About page and look for the corresponding UUID here."
                    Grid.Row="4"
                    FontSize="15"
                    FontFamily="Consolas"
+                   Width="700"
                    HorizontalAlignment="Center"
                    TextWrapping="WrapWholeWords"
                    TextAlignment="Center"
                    Margin="0,20,0,0"></TextBlock>
+
         <!--&#x0a;&#x0a; USE FOR LINEBREAK-->
-        <Button Content="v0.1.1.1 e67b1ab1-9ddf-428f-ba77-434c2b34134e"
+        <Button Content="v1.1.1.1 e67b1ab1-9ddf-428f-ba77-434c2b34134e"
                 Style="{StaticResource AccentButtonStyle}"
                 FontFamily="Consolas"
                 CornerRadius="2" 
@@ -40,7 +42,7 @@
                 Grid.Row="4"
                 Height="30"
                 Width="400"/>
-        <Button Content="v0.1.1.2 d15a5f61-9a3d-4896-858b-ea52ae382867"
+        <Button Content="v1.1.1.2 d15a5f61-9a3d-4896-858b-ea52ae382867"
                 Style="{StaticResource AccentButtonStyle}"
                 FontFamily="Consolas"
                 CornerRadius="2" 
