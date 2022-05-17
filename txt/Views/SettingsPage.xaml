@@ -6,6 +6,7 @@
     xmlns:helper="using:txt.Helpers"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Style="{StaticResource PageStyle}"
+    Background="#36393f"
     xmlns:xaml="using:Windows.UI.Xaml"
     mc:Ignorable="d">
     <Page.Resources>
@@ -65,7 +66,7 @@
                             <xaml:ElementTheme>Default</xaml:ElementTheme>
                         </RadioButton.CommandParameter>
                     </RadioButton>
-                    <TextBlock Text="| Created by 324Hz and licensed under the MIT license | © 324Hz 2022 | v1.1.1.2 |"
+                    <TextBlock Text="| Created by 324Hz and licensed under the MIT license | © 324Hz 2022 | v0.1.0.12 |"
                         FontSize="15"
                         FontFamily="Consolas"
                         HorizontalAlignment="Left"

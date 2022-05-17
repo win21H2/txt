@@ -5,6 +5,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Style="{StaticResource PageStyle}"
+    Background="#36393f"
     mc:Ignorable="d">
     <Grid x:Name="ContentArea"
           Margin="{StaticResource SmallLeftTopRightBottomMargin}">
@@ -34,7 +35,7 @@
                  Name="TextBox"/>
 
         <Button Content="Home"
-                Style="{StaticResource AccentButtonStyle}"
+                Background="#ff6363"
                 FontFamily="Consolas"
                 FontSize="11"
                 CornerRadius="2" 
@@ -44,7 +45,6 @@
                 Height="30"
                 Width="100"/>
         <Button Content="About"
-                Style="{StaticResource AccentButtonStyle}"
                 FontFamily="Consolas"
                 FontSize="11"
                 CornerRadius="2" 
@@ -54,7 +54,6 @@
                 Height="30"
                 Width="100"/>
         <Button Content="Version"
-                Style="{StaticResource AccentButtonStyle}"
                 FontFamily="Consolas"
                 FontSize="11"
                 CornerRadius="2" 
@@ -64,7 +63,6 @@
                 Height="30"
                 Width="100"/>
         <Button Content="Settings"
-                Style="{StaticResource AccentButtonStyle}"
                 FontFamily="Consolas"
                 FontSize="11"
                 CornerRadius="2"
@@ -75,7 +73,6 @@
                 Width="100"/>
 
         <Button Content="Select a file"
-                Style="{StaticResource AccentButtonStyle}"
                 FontFamily="Consolas"
                 FontSize="11"
                 CornerRadius="2"
@@ -95,7 +92,7 @@
                    Width="300"
                    Name="TextBlockoutput"></TextBlock>
 
-        <TextBlock Text="| Licensed under the MIT license | © 324Hz 2022 | v1.1.1.2 |"
+        <TextBlock Text="| Licensed under the MIT license | © 324Hz 2022 | v0.1.0.12 |"
                    Grid.Row="18"
                    FontSize="15"
                    FontFamily="Consolas"
