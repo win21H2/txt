@@ -26,9 +26,16 @@ Milestones
 
 -------------------------------------------------
 
+05/17/2022
+> - Tested out the dark theme with the color #36393f
+> - Edited the version numbers and the version page to reflect those numbers
+
+-------------------------------------------------
+
 TODO
-> - Add a system which asks if the user wants to exit the application (most likely with a "save" button to save the text that the user inputted
-> - Figure out a system for formatting the text for the description so that it does not do a weird line break for example in a straight line, the text shows up fine but if I press enter something along the lines of the below happens:
+ - ⛔ Add a system which asks if the user wants to exit the application (most likely with a "save" button to save the text that the user inputted
+ - ⛔ Figure out a system for formatting the text for the description so that it does not do a weird line break for example in a straight line, the text shows up fine but if I press enter something along the lines of the below happens:
 ![image](https://user-images.githubusercontent.com/92825997/168715041-705e2b50-0078-43bb-ad87-9479b2ef5dfb.png)
-> - Figure out how to change the default dark and light theme colors (dark theme = 36393f & light theme = dcddde)
-> - Figure out how styling multiple TextBlocks in /Styles/TextBlock.xaml works
+ - :white_check_mark: Test with different colors for the background of the application to see which ones/a combo of ones work best
+ - ⛔ Figure out how to change the default dark and light theme colors (dark theme = 36393f & light theme = dcddde)
+ - ⛔ Figure out how styling multiple TextBlocks in /Styles/TextBlock.xaml works
