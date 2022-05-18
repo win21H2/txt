@@ -32,6 +32,11 @@ Milestones
 
 -------------------------------------------------
 
+05/18/2022
+> - Started removing the Grid.Row lines because they messed up the styling and formatting of the application
+> 
+-------------------------------------------------
+
 TODO
  - ⛔ Add a system which asks if the user wants to exit the application (most likely with a "save" button to save the text that the user inputted
  - ⛔ Figure out a system for formatting the text for the description so that it does not do a weird line break for example in a straight line, the text shows up fine but if I press enter something along the lines of the below happens:
@@ -39,3 +44,4 @@ TODO
  - :white_check_mark: Test with different colors for the background of the application to see which ones/a combo of ones work best
  - ⛔ Figure out how to change the default dark and light theme colors (dark theme = 36393f & light theme = dcddde)
  - ⛔ Figure out how styling multiple TextBlocks in /Styles/TextBlock.xaml works
+ - Remove all of th Grid.Row lines beause the mess up the styling and formatting of the application
