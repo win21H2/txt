@@ -7,7 +7,7 @@
     Style="{StaticResource PageStyle}"
     Background="#36393f"
     mc:Ignorable="d">
-    <!--LINE BREAK: &#x0a;&#x0a;-->
+    <!--USE THIS FOR LINE BREAK: &#x0a;&#x0a;-->
     <Grid x:Name="ContentArea">
         <TextBlock Text="txt"
                    FontSize="30"
@@ -48,7 +48,7 @@
                 VerticalAlignment="Top"
                 Height="30"
                 Width="100"/>
-        <!--REMOVE ALL GRID.ROWS IN ALL OF THE FILES AS THEY ARE NOT NEEDED ANYMORE-->
+        <!--REMOVE ALL GRID.ROWS IN ALL OF THE FILES AS THEY ARE NOT NEEDED ANYMORE AND MAKE SURE TO RE-STYLE EVERY PAGE (BUTTONS ETC.)-->
         <Button Content="Version"
                 FontFamily="Consolas"
                 FontSize="11"

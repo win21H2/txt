@@ -32,18 +32,5 @@ namespace txt.Views {
         private void Test_Click(object sender, RoutedEventArgs e) {
             this.Frame.Navigate(typeof(TestPage));
         }
-        private async void buttonfilepick_Click(object sender, RoutedEventArgs e) {
-            FileOpenPicker openPicker = new FileOpenPicker();
-            openPicker.ViewMode = PickerViewMode.Thumbnail;
-            openPicker.SuggestedStartLocation = PickerLocationId.PicturesLibrary;
-            openPicker.FileTypeFilter.Add(".txt");
-            StorageFile file = await openPicker.PickSingleFileAsync();
-            if (file != null) {
-                TextBlockoutput.Text = "User Selected File:" + file.Name;
-            }
-            else {
-                TextBlockoutput.Text = "Error. Try again!";
-            }
-        }
     }
 }
