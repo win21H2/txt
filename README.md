@@ -34,7 +34,14 @@ Milestones
 
 05/18/2022
 > - Started removing the Grid.Row lines because they messed up the styling and formatting of the application
-> 
+
+-------------------------------------------------
+
+05/20/2022
+> - Styled the buttons on every page
+> - Styled the text editor on the home page so that it looks more uniform
+> - Added a button which when you hover over it, turns the cursor into a cross class
+
 -------------------------------------------------
 
 TODO
