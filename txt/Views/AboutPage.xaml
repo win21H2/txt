@@ -31,7 +31,6 @@
                    TextAlignment="Center"
                    Width="700"
                    Margin="0,180,0,0"></TextBlock>
-
         <Button Content="Home"
                 Background="#ff6363"
                 FontFamily="Consolas"
@@ -69,6 +68,7 @@
                 Click="Settings_Click"
                 Height="30"
                 Width="100"/>
+
         <TextBlock Text="| Licensed under the MIT license | © 324Hz 2022 | v0.1.0.12 |"
                    FontSize="15"
                    FontFamily="Consolas"

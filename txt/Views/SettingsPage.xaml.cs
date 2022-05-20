@@ -18,10 +18,9 @@ namespace txt.Views {
             App.TryGoBack();
         }
 
-        private void PasswordBox1_PasswordChanged(object sender, RoutedEventArgs e) {
-            // Cast the sender as a PasswordBox
+        private void PasswordBox1_PasswordChanged(object sender, RoutedEventArgs e) { 
             PasswordBox passwordBox = sender as PasswordBox;
-            // Get the PasswordBox inputted string length
+
             int length = passwordBox.Password.Length;
             if (length > 0) {
                 Psswrd.Text = length + " Character(s).";
