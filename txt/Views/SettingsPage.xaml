@@ -13,86 +13,53 @@
         <helper:EnumToBooleanConverter x:Key="EnumToBooleanConverter" EnumType="ElementTheme" />
     </Page.Resources>
 
-    <Grid Margin="{StaticResource SmallLeftTopRightBottomMargin}">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="48" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
-        <TextBlock
-            Grid.Row="0"
-            x:Uid="Settings_Title"
-            Style="{StaticResource PageTitleStyle}"
-            FontFamily="Consolas"/>
-        <StackPanel
-            Grid.Row="1"
-            x:Name="ContentArea">
-            <TextBlock x:Uid="Settings_Personalization"
-                       Style="{ThemeResource SubtitleTextBlockStyle}"
-                       FontFamily="Consolas"/>
-            <StackPanel Margin="{StaticResource SmallTopBottomMargin}">
-                <TextBlock x:Uid="Settings_Theme"
-                           FontFamily="Consolas"/>
-                <StackPanel Margin="{StaticResource XSmallTopMargin}">
-                    <RadioButton
+    <Grid>
+        <StackPanel x:Name="ContentArea">
+            <RadioButton
                         x:Uid="Settings_Theme_Light"
                         Command="{x:Bind ViewModel.SwitchThemeCommand}"
                         IsChecked="{x:Bind ViewModel.ElementTheme, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=Light, Mode=OneWay}"
                         FontSize="15"
                         FontFamily="Consolas"
+                        Margin="10,10,0,0"
                         GroupName="AppTheme">
                         <RadioButton.CommandParameter>
                             <xaml:ElementTheme>Light</xaml:ElementTheme>
                         </RadioButton.CommandParameter>
                     </RadioButton>
-                    <RadioButton
+            <RadioButton
                         x:Uid="Settings_Theme_Dark"
                         Command="{x:Bind ViewModel.SwitchThemeCommand}"
                         IsChecked="{x:Bind ViewModel.ElementTheme, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=Dark, Mode=OneWay}"
                         FontSize="15"
                         FontFamily="Consolas"
+                        Margin="10,0,0,0"
                         GroupName="AppTheme">
                         <RadioButton.CommandParameter>
                             <xaml:ElementTheme>Dark</xaml:ElementTheme>
                         </RadioButton.CommandParameter>
                     </RadioButton>
-                    <RadioButton
-                        x:Uid="Settings_Theme_Default"
-                        Command="{x:Bind ViewModel.SwitchThemeCommand}"
-                        IsChecked="{x:Bind ViewModel.ElementTheme, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=Default, Mode=OneWay}"
-                        FontSize="15"
-                        FontFamily="Consolas"
-                        GroupName="AppTheme">
-                        <RadioButton.CommandParameter>
-                            <xaml:ElementTheme>Default</xaml:ElementTheme>
-                        </RadioButton.CommandParameter>
-                    </RadioButton>
-
-                    
-                    <!--PASSOWRD BOX-->
-                    <TextBlock x:Name="Psswrd"
-                               Foreground="#dcddde"
-                               Margin="15"
-                               FontFamily="Consolas"
-                               FontSize="15"/>
-                    <PasswordBox x:Name="PasswordBox1"
-                                 PlaceholderText="Password"
-                                 Width="300"
-                                 MaxLength="20"
-                                 PasswordChar="#"
-                                 PasswordRevealMode="Peek"
-                                 HorizontalAlignment="Left"
-                                 PasswordChanged="PasswordBox1_PasswordChanged" />
-                    <!--PASSWORD BOX-->
-
-                    
-                    <TextBlock Text="| Created by 324Hz and licensed under the MIT license | © 324Hz 2022 | v0.1.0.12 |"
-                        FontSize="15"
-                        FontFamily="Consolas"
-                        HorizontalAlignment="Left"
-                        VerticalAlignment="Bottom"
-                        Margin="0,20,0,0"></TextBlock>
-                </StackPanel>
-            </StackPanel>
+            <TextBlock x:Name="Psswrd"
+                       Foreground="#dcddde"
+                       Margin="10,0,0,10"
+                       FontFamily="Consolas"
+                       FontSize="15"/>
+            <PasswordBox x:Name="PasswordBox1"
+                         PlaceholderText="Password"
+                         Width="260"
+                         MaxLength="15"
+                         PasswordChar="#"
+                         PasswordRevealMode="Peek"
+                         HorizontalAlignment="Left"
+                         VerticalAlignment="Top"
+                         Margin="10,0,0,0"
+                         PasswordChanged="PasswordBox1_PasswordChanged"/>
+            <TextBlock Text="| Created by 324Hz and licensed under the MIT license | © 324Hz 2022 | v0.1.0.13 |"
+                       FontSize="15"
+                       FontFamily="Consolas"
+                       HorizontalAlignment="Left"
+                       VerticalAlignment="Bottom"
+                       Margin="10,20,0,0"></TextBlock>
         </StackPanel>
         <Button x:Name="BackButton"
                 Click="BackButton_Click"
@@ -100,5 +67,5 @@
                 IsEnabled="{x:Bind Frame.CanGoBack, Mode=OneWay}" 
                 ToolTipService.ToolTip="Back"
                 HorizontalAlignment="Right"/>
-    </Grid>    
+    </Grid>
 </Page>

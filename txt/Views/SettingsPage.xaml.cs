@@ -20,10 +20,9 @@ namespace txt.Views {
 
         private void PasswordBox1_PasswordChanged(object sender, RoutedEventArgs e) { 
             PasswordBox passwordBox = sender as PasswordBox;
-
             int length = passwordBox.Password.Length;
             if (length > 0) {
-                Psswrd.Text = length + " Character(s).";
+                Psswrd.Text = "Your password is " + length + " character(s) long.";
             }
             else {
                 Psswrd.Text = "The password entry box is empty.";

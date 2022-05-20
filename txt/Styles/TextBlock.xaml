@@ -4,7 +4,7 @@
 
     <!--Common texts-->
     <Style x:Key="PageTitleStyle" TargetType="TextBlock">
-        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="VerticalAlignment" Value="Center"/>
         <Setter Property="FontWeight" Value="SemiLight" />
         <Setter Property="FontSize" Value="{StaticResource LargeFontSize}" />
         <Setter Property="TextTrimming" Value="CharacterEllipsis" />

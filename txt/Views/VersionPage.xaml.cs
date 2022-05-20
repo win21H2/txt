@@ -13,8 +13,6 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
-
 namespace txt.Views {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -66,15 +64,15 @@ namespace txt.Views {
         dialog.Commands.Add(new Windows.UI.Popups.UICommand("Close") { Id = 1 });
             dialog.CancelCommandIndex = 1;
             var result = await dialog.ShowAsync();
-}
-        //FORMAT VERSION BELOW
-        //private async void V0###_Click(object sender, RoutedEventArgs e) {
-        //    var dialog = new Windows.UI.Popups.MessageDialog(
-        //                "v0.#.#.#\n\nNotes\n\nEXAMPLE NOTES HERE",
-        //                "d15a5f61-9a3d-4896-858b-ea52ae382867");
-        //    dialog.Commands.Add(new Windows.UI.Popups.UICommand("Close") { Id = 1 });
-        //    dialog.CancelCommandIndex = 1;
-        //    var result = await dialog.ShowAsync();
-        //}
+        }
     }
 }
+//FORMAT VERSION BELOW
+//private async void V01014_Click(object sender, RoutedEventArgs e) {
+//    var dialog = new Windows.UI.Popups.MessageDialog(
+//                "v0.1.0.14\n\nNotes\nEXAMPLE NOTES HERE",
+//                "UUID GOES HERE");
+//    dialog.Commands.Add(new Windows.UI.Popups.UICommand("Close") { Id = 1 });
+//    dialog.CancelCommandIndex = 1;
+//    var result = await dialog.ShowAsync();
+//}

@@ -4,7 +4,6 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-
     Style="{StaticResource PageStyle}"
     Background="#36393f"
     mc:Ignorable="d">
@@ -31,6 +30,7 @@
                  Background="#36393f"
                  Name="TextBox"
                  CornerRadius="10"/>
+        <!--ADD A CHARACTER COUNTER TO THIS TextBox-->
 
         <Button Content="Home"
                 Background="#ff6363"
@@ -79,7 +79,6 @@
                 Height="30"
                 Width="100"/>
         <Button Name="button" BorderThickness="2" PointerEntered="button_PointerEntered">Button</Button>
-        
         <TextBlock Text="| Licensed under the MIT license | © 324Hz 2022 | v0.1.0.12 |"
                    FontSize="15"
                    FontFamily="Consolas"
