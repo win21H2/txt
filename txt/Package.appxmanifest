@@ -11,7 +11,7 @@
 	<Identity
 	  Name="095DBF03-30D8-4F4C-ACA7-D4ACBDC2E922"
 	  Publisher="CN=324Hz"
-	  Version="0.1.12.0" />
+	  Version="0.1.13.0" />
 
 	<mp:PhoneIdentity PhoneProductId="095DBF03-30D8-4F4C-ACA7-D4ACBDC2E922" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 

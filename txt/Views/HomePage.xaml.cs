@@ -9,6 +9,7 @@ using Windows.Storage.Pickers;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Core.Preview;
 using Windows.UI.Popups;
+using Windows.UI.Xaml.Input;
 
 namespace txt.Views {
     public sealed partial class HomePage : Page {
@@ -28,6 +29,12 @@ namespace txt.Views {
         }
         private void Version_Click(object sender, RoutedEventArgs e) {
             this.Frame.Navigate(typeof(VersionPage));
+        }
+        private void Test_Click(object sender, RoutedEventArgs e) {
+            this.Frame.Navigate(typeof(TestPage));
+        }
+        private void button_PointerEntered(object sender, PointerRoutedEventArgs e) {
+            Windows.UI.Xaml.Window.Current.CoreWindow.PointerCursor = new Windows.UI.Core.CoreCursor(Windows.UI.Core.CoreCursorType.Cross, 1);
         }
     }
 }

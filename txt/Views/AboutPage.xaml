@@ -36,7 +36,7 @@
                 FontFamily="Consolas"
                 VerticalAlignment="Top"
                 FontSize="11"
-                CornerRadius="2" 
+                CornerRadius="10" 
                 Margin="10,10,0,0"
                 Click="Home_Click"
                 Height="30"
@@ -45,7 +45,7 @@
                 VerticalAlignment="Top"
                 FontFamily="Consolas"
                 FontSize="11"
-                CornerRadius="2" 
+                CornerRadius="10" 
                 Margin="120,10,0,0"
                 Click="About_Click"
                 Height="30"
@@ -54,7 +54,7 @@
                 VerticalAlignment="Top"
                 FontFamily="Consolas"
                 FontSize="11"
-                CornerRadius="2" 
+                CornerRadius="10" 
                 Margin="230,10,0,0"
                 Click="Version_Click"
                 Height="30"
@@ -63,7 +63,7 @@
                 VerticalAlignment="Top"
                 FontFamily="Consolas"
                 FontSize="11"
-                CornerRadius="2"
+                CornerRadius="10"
                 Margin="340,10,0,0"
                 Click="Settings_Click"
                 Height="30"
@@ -74,6 +74,6 @@
                    FontFamily="Consolas"
                    HorizontalAlignment="Center"
                    VerticalAlignment="Bottom"
-                   Margin="0,0,0,0"></TextBlock>
+                   Margin="0,0,0,10"></TextBlock>
     </Grid>
 </Page>

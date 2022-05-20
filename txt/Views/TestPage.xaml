@@ -9,4 +9,7 @@
     Style="{StaticResource PageStyle}"
     Background="#36393f">
 
+    <Grid>
+        <Button Name="button"  BorderThickness="2" PointerEntered="button_PointerEntered"  PointerExited="button_PointerExited">Button</Button>
+    </Grid>
 </Page>

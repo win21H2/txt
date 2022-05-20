@@ -4,6 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+
     Style="{StaticResource PageStyle}"
     Background="#36393f"
     mc:Ignorable="d">
@@ -28,13 +29,14 @@
                  Height="690"
                  Width="690"
                  Background="#36393f"
-                 Name="TextBox"/>
+                 Name="TextBox"
+                 CornerRadius="10"/>
 
         <Button Content="Home"
                 Background="#ff6363"
                 FontFamily="Consolas"
                 FontSize="11"
-                CornerRadius="2" 
+                CornerRadius="10" 
                 Margin="10,10,0,0"
                 Click="Home_Click"
                 VerticalAlignment="Top"
@@ -43,7 +45,7 @@
         <Button Content="About"
                 FontFamily="Consolas"
                 FontSize="11"
-                CornerRadius="2" 
+                CornerRadius="10" 
                 Margin="120,10,0,0"
                 Click="About_Click"
                 VerticalAlignment="Top"
@@ -52,7 +54,7 @@
         <Button Content="Version"
                 FontFamily="Consolas"
                 FontSize="11"
-                CornerRadius="2" 
+                CornerRadius="10" 
                 Margin="230,10,0,0"
                 Click="Version_Click"
                 VerticalAlignment="Top"
@@ -61,18 +63,28 @@
         <Button Content="Settings"
                 FontFamily="Consolas"
                 FontSize="11"
-                CornerRadius="2"
+                CornerRadius="10"
                 Margin="340,10,0,0"
                 Click="Settings_Click"
                 VerticalAlignment="Top"
                 Height="30"
                 Width="100"/>
-
+        <Button Content="Test"
+                FontFamily="Consolas"
+                FontSize="11"
+                CornerRadius="10"
+                Margin="450,10,0,0"
+                Click="Test_Click"
+                VerticalAlignment="Top"
+                Height="30"
+                Width="100"/>
+        <Button Name="button" BorderThickness="2" PointerEntered="button_PointerEntered">Button</Button>
+        
         <TextBlock Text="| Licensed under the MIT license | © 324Hz 2022 | v0.1.0.12 |"
                    FontSize="15"
                    FontFamily="Consolas"
                    HorizontalAlignment="Center"
                    VerticalAlignment="Bottom"
-                   Margin="0,50,0,0"></TextBlock>
+                   Margin="0,0,0,10"></TextBlock>
     </Grid>
 </Page>

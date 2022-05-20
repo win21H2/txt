@@ -21,5 +21,11 @@ namespace txt.Views {
         public TestPage() {
             this.InitializeComponent();
         }
+        private void button_PointerEntered(object sender, PointerRoutedEventArgs e) {
+            Windows.UI.Xaml.Window.Current.CoreWindow.PointerCursor = new Windows.UI.Core.CoreCursor(Windows.UI.Core.CoreCursorType.Cross, 1);
+        }
+        private void button_PointerExited(object sender, PointerRoutedEventArgs e) {
+            Windows.UI.Xaml.Window.Current.CoreWindow.PointerCursor = new Windows.UI.Core.CoreCursor(Windows.UI.Core.CoreCursorType.Cross, 1);
+        }
     }
 }
