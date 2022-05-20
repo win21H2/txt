@@ -41,7 +41,8 @@ Milestones
 > - Styled the buttons on every page
 > - Styled the text editor on the home page so that it looks more uniform
 > - Added a button which when you hover over it, turns the cursor into a cross class
-> - NOTE: have to figure out how to keep the cursor as a cross 
+> - NOTE: have to figure out how to keep the cursor as a cross (ADD THIS TO THE TODO)
+> - NOTE: add in a character counter to the textbox on the main page (ADD THIS TO THE TODO)
 
 -------------------------------------------------
 
