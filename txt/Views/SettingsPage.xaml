@@ -35,37 +35,38 @@
                         FontFamily="Consolas"
                         Margin="10,0,0,0"
                         GroupName="AppTheme">
-                        <RadioButton.CommandParameter>
-                            <xaml:ElementTheme>Dark</xaml:ElementTheme>
-                        </RadioButton.CommandParameter>
-                    </RadioButton>
-            <TextBlock x:Name="Psswrd"
-                       Foreground="#dcddde"
-                       Margin="10,0,0,10"
-                       FontFamily="Consolas"
-                       FontSize="15"/>
+                <RadioButton.CommandParameter>
+                    <xaml:ElementTheme>Dark</xaml:ElementTheme>
+                </RadioButton.CommandParameter>
+            </RadioButton>
             <PasswordBox x:Name="PasswordBox1"
                          PlaceholderText="Password"
-                         Width="260"
+                         Width="315"
                          MaxLength="15"
                          PasswordChar="#"
                          PasswordRevealMode="Peek"
                          HorizontalAlignment="Left"
                          VerticalAlignment="Top"
-                         Margin="10,0,0,0"
+                         Margin="10,20,0,0"
                          PasswordChanged="PasswordBox1_PasswordChanged"/>
-            <TextBlock Text="| Created by 324Hz and licensed under the MIT license | © 324Hz 2022 | v0.1.0.13 |"
-                       FontSize="15"
+            <TextBlock x:Name="Psswrd"
+                       Foreground="#dcddde"
+                       Margin="10,0,0,100"
                        FontFamily="Consolas"
-                       HorizontalAlignment="Left"
-                       VerticalAlignment="Bottom"
-                       Margin="10,20,0,0"></TextBlock>
+                       FontSize="15"/>
         </StackPanel>
         <Button x:Name="BackButton"
                 Click="BackButton_Click"
                 Style="{StaticResource NavigationBackButtonNormalStyle}"
                 IsEnabled="{x:Bind Frame.CanGoBack, Mode=OneWay}" 
                 ToolTipService.ToolTip="Back"
-                HorizontalAlignment="Right"/>
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"/>
+        <TextBlock Text="| Created by 324Hz and licensed under the MIT license | © 324Hz 2022 | v0.1.0.13 |"
+                       FontSize="15"
+                       FontFamily="Consolas"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Bottom"
+                       Margin="0,0,0,10"></TextBlock>
     </Grid>
 </Page>

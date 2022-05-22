@@ -25,7 +25,7 @@ namespace txt.Views {
                 Psswrd.Text = "Your password is " + length + " character(s) long.";
             }
             else {
-                Psswrd.Text = "The password entry box is empty.";
+                
             }
         }
     }
