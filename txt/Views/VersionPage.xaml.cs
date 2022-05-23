@@ -27,9 +27,6 @@ namespace txt.Views {
         private void Home_Click(object sender, RoutedEventArgs e) {
             this.Frame.Navigate(typeof(HomePage));
         }
-        private void About_Click(object sender, RoutedEventArgs e) {
-            this.Frame.Navigate(typeof(AboutPage));
-        }
         private void Version_Click(object sender, RoutedEventArgs e) {
             this.Frame.Navigate(typeof(VersionPage));
         }

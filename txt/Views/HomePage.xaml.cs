@@ -18,22 +18,26 @@ namespace txt.Views {
         public HomePage() {
             InitializeComponent();
         }
-        //private void Settings_Click(object sender, RoutedEventArgs e) {
-        //    this.Frame.Navigate(typeof(SettingsPage));
-        //}
-        private void Home_Click(object sender, RoutedEventArgs e) {
-            this.Frame.Navigate(typeof(HomePage));
+        private void Settings_Click(object sender, RoutedEventArgs e) {
+            this.Frame.Navigate(typeof(SettingsPage));
         }
-        //private void About_Click(object sender, RoutedEventArgs e) {
-        //    this.Frame.Navigate(typeof(AboutPage));
-        //}
         private void Version_Click(object sender, RoutedEventArgs e) {
             this.Frame.Navigate(typeof(VersionPage));
+        }
+        private void About_Click(object sender, RoutedEventArgs e) {
+            this.Frame.Navigate(typeof(AboutPage));
         }
         //private void Test_Click(object sender, RoutedEventArgs e) {
         //    this.Frame.Navigate(typeof(TestPage));
         //}
 
-        // Tex length BELOW
+        private async void Save_Click(object sender, RoutedEventArgs e) {
+            var dialog = new Windows.UI.Popups.MessageDialog(
+                        "This feature is coming soon!",
+                        "Coming soon!");
+            dialog.Commands.Add(new Windows.UI.Popups.UICommand("Close") { Id = 1 });
+            dialog.CancelCommandIndex = 1;
+            var result = await dialog.ShowAsync();
+        }
     }
 }

@@ -39,21 +39,6 @@
                     <xaml:ElementTheme>Dark</xaml:ElementTheme>
                 </RadioButton.CommandParameter>
             </RadioButton>
-            <PasswordBox x:Name="PasswordBox1"
-                         PlaceholderText="Password"
-                         Width="315"
-                         MaxLength="15"
-                         PasswordChar="#"
-                         PasswordRevealMode="Peek"
-                         HorizontalAlignment="Left"
-                         VerticalAlignment="Top"
-                         Margin="10,20,0,0"
-                         PasswordChanged="PasswordBox1_PasswordChanged"/>
-            <TextBlock x:Name="Psswrd"
-                       Foreground="#dcddde"
-                       Margin="10,0,0,100"
-                       FontFamily="Consolas"
-                       FontSize="15"/>
         </StackPanel>
         <Button x:Name="BackButton"
                 Click="BackButton_Click"

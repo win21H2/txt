@@ -17,16 +17,5 @@ namespace txt.Views {
         private void BackButton_Click(object sender, RoutedEventArgs e) {
             App.TryGoBack();
         }
-
-        private void PasswordBox1_PasswordChanged(object sender, RoutedEventArgs e) { 
-            PasswordBox passwordBox = sender as PasswordBox;
-            int length = passwordBox.Password.Length;
-            if (length > 0) {
-                Psswrd.Text = "Your password is " + length + " character(s) long.";
-            }
-            else {
-                
-            }
-        }
     }
 }

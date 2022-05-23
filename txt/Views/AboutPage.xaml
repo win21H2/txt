@@ -41,15 +41,6 @@
                 Click="Home_Click"
                 Height="30"
                 Width="100"/>
-        <Button Content="About"
-                VerticalAlignment="Top"
-                FontFamily="Consolas"
-                FontSize="11"
-                CornerRadius="10" 
-                Margin="120,10,0,0"
-                Click="About_Click"
-                Height="30"
-                Width="100"/>
         <Button Content="Version"
                 VerticalAlignment="Top"
                 FontFamily="Consolas"
