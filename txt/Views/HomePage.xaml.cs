@@ -24,16 +24,21 @@ namespace txt.Views {
         private void Version_Click(object sender, RoutedEventArgs e) {
             this.Frame.Navigate(typeof(VersionPage));
         }
-        private void About_Click(object sender, RoutedEventArgs e) {
-            this.Frame.Navigate(typeof(AboutPage));
+        private void Test_Click(object sender, RoutedEventArgs e) {
+            this.Frame.Navigate(typeof(TestPage));
         }
-        //private void Test_Click(object sender, RoutedEventArgs e) {
-        //    this.Frame.Navigate(typeof(TestPage));
-        //}
 
+        private async void Home_Click(object sender, RoutedEventArgs e) {
+            var dialog = new Windows.UI.Popups.MessageDialog(
+                        "You are already on the home page!",
+                        "Home page");
+           dialog.Commands.Add(new Windows.UI.Popups.UICommand("Close") { Id = 1 });
+           dialog.CancelCommandIndex = 1;
+           var result = await dialog.ShowAsync();
+        }
         private async void Save_Click(object sender, RoutedEventArgs e) {
             var dialog = new Windows.UI.Popups.MessageDialog(
-                        "This feature is coming soon!",
+                        "The save feature is coming soon!",
                         "Coming soon!");
             dialog.Commands.Add(new Windows.UI.Popups.UICommand("Close") { Id = 1 });
             dialog.CancelCommandIndex = 1;

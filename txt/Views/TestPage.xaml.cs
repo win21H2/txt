@@ -24,10 +24,7 @@ namespace txt.Views {
     /// </summary>
     public sealed partial class TestPage : Page {
         public TestPage() {
-            this.InitializeComponent();
-        }
-        private void Save_Click(object sender, RoutedEventArgs e) {
-
+            InitializeComponent();
         }
     }
 }

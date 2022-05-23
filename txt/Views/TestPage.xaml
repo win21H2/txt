@@ -10,18 +10,6 @@
     Background="#36393f">
 
     <Grid>
-        <RichEditBox x:Name="TEXTBOXTEST"
-                     Width="1000"
-                     Height="600"
-                     CornerRadius="10"/>
-        <Button Content="Save"
-                FontFamily="Consolas"
-                FontSize="11"
-                CornerRadius="10" 
-                Margin="10,10,0,0"
-                Click="Save_Click"
-                VerticalAlignment="Top"
-                Height="30"
-                Width="100"/>
+          
     </Grid>
 </Page>
