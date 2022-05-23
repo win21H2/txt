@@ -41,10 +41,16 @@ Milestones
 > - Styled the buttons on every page
 > - Styled the text editor on the home page so that it looks more uniform
 > - Added a button which when you hover over it, turns the cursor into a cross class
-> - NOTE: have to figure out how to keep the cursor as a cross (ADD THIS TO THE TODO)
 > - NOTE: add in a character counter to the textbox on the main page (ADD THIS TO THE TODO)
 
 -------------------------------------------------
+
+05/23/2022
+> - Added the RichTextBox area to the main page
+> - Removed a lot of buttons on the main page to reduce clutter
+
+-------------------------------------------------
+
 
 TODO
  - ⛔ Add a system which asks if the user wants to exit the application (most likely with a "save" button to save the text that the user inputted
@@ -53,4 +59,4 @@ TODO
  - :white_check_mark: Test with different colors for the background of the application to see which ones/a combo of ones work best
  - ⛔ Figure out how to change the default dark and light theme colors (dark theme = 36393f & light theme = dcddde)
  - ⛔ Figure out how styling multiple TextBlocks in /Styles/TextBlock.xaml works
- - Remove all of th Grid.Row lines beause the mess up the styling and formatting of the application
+ - :white_check_mark: Remove all of th Grid.Row lines beause the mess up the styling and formatting of the application
