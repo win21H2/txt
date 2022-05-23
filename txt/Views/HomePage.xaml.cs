@@ -18,23 +18,22 @@ namespace txt.Views {
         public HomePage() {
             InitializeComponent();
         }
-        private void Settings_Click(object sender, RoutedEventArgs e) {
-            this.Frame.Navigate(typeof(SettingsPage));
-        }
+        //private void Settings_Click(object sender, RoutedEventArgs e) {
+        //    this.Frame.Navigate(typeof(SettingsPage));
+        //}
         private void Home_Click(object sender, RoutedEventArgs e) {
             this.Frame.Navigate(typeof(HomePage));
         }
-        private void About_Click(object sender, RoutedEventArgs e) {
-            this.Frame.Navigate(typeof(AboutPage));
-        }
+        //private void About_Click(object sender, RoutedEventArgs e) {
+        //    this.Frame.Navigate(typeof(AboutPage));
+        //}
         private void Version_Click(object sender, RoutedEventArgs e) {
             this.Frame.Navigate(typeof(VersionPage));
         }
-        private void Test_Click(object sender, RoutedEventArgs e) {
-            this.Frame.Navigate(typeof(TestPage));
-        }
-        private void button_PointerEntered(object sender, PointerRoutedEventArgs e) {
-            Windows.UI.Xaml.Window.Current.CoreWindow.PointerCursor = new Windows.UI.Core.CoreCursor(Windows.UI.Core.CoreCursorType.Cross, 1);
-        }
+        //private void Test_Click(object sender, RoutedEventArgs e) {
+        //    this.Frame.Navigate(typeof(TestPage));
+        //}
+
+        // Tex length BELOW
     }
 }
