@@ -3,86 +3,50 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:muxc="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:muxc="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     Style="{StaticResource PageStyle}"
     Background="#36393f"
     mc:Ignorable="d">
-    <!--USE THIS FOR LINE BREAK: &#x0a;&#x0a;-->
     <Grid x:Name="ContentArea">
         <StackPanel>
             <TextBlock Text="txt"
-                   FontSize="30"
+                   FontSize="20"
                    FontFamily="Consolas"
                    HorizontalAlignment="Center"
-                   Margin="0,10,0,0"></TextBlock>
-
-            <RichEditBox x:Name="input"
-                     HorizontalAlignment="Stretch"
-                     Height="700"
-                     TextWrapping="Wrap"
-                     CornerRadius="10"
-                     Margin="0,100,0,0"
-                     PlaceholderText="Write away"/>
-            <TextBlock x:Name="PasswordBox1"
-                   HorizontalAlignment="Center"
-                   VerticalAlignment="Bottom"
-                   Margin="0,0,925,180"></TextBlock>
+                   Margin="0,5,0,0"></TextBlock>
         </StackPanel>
-        <!--TABVIEW IS NOT SUPPORTED YET BY MY APPLICATION CHECK OUT THE APP.XAML FILE
-        <muxc:TabView TabWidthMode="SizeToContent" />-->
-
-        <Button Content="Home"
-                Background="#ff6363"
-                FontFamily="Consolas"
-                VerticalAlignment="Top"
-                FontSize="11"
-                CornerRadius="10" 
-                Margin="10,10,0,0"
-                Click="Home_Click"
-                Height="30"
-                Width="100"/>
-        <Button Content="Version"
+        <TextBox x:Name="input"
+                 HorizontalAlignment="Stretch"
+                 VerticalAlignment="Stretch"
+                 TextWrapping="Wrap"
+                 Margin="5,40,5,5"></TextBox>
+        <StackPanel>
+            <Button Content="Settings"
                 FontFamily="Consolas"
                 FontSize="11"
-                CornerRadius="10" 
-                Margin="120,10,0,0"
-                Click="Version_Click"
-                VerticalAlignment="Top"
-                Height="30"
-                Width="100"/>
-        <Button Content="Settings"
-                FontFamily="Consolas"
-                FontSize="11"
-                CornerRadius="10"
-                Margin="230,10,0,0"
+                Margin="5,5,0,0"
                 Click="Settings_Click"
                 VerticalAlignment="Top"
                 Height="30"
                 Width="100"/>
-        <Button Content="Save"
+            <Button Content="Version"
                 FontFamily="Consolas"
                 FontSize="11"
-                CornerRadius="10"
-                Margin="340,10,0,0"
+                Margin="110,-30,0,0"
+                Click="Version_Click"
+                VerticalAlignment="Top"
+                Height="30"
+                Width="100"/>
+            <Button Content="Save"
+                FontFamily="Consolas"
+                FontSize="11"
+                Margin="215,-30,0,0"
                 Click="Save_Click"
                 VerticalAlignment="Top"
+                HorizontalAlignment="Left"
                 Height="30"
                 Width="100"/>
-        <Button Content="Test"
-                FontFamily="Consolas"
-                FontSize="11"
-                CornerRadius="10"
-                Margin="450,10,0,0"
-                Click="Test_Click"
-                VerticalAlignment="Top"
-                Height="30"
-                Width="100"/>
-
-        <TextBlock Text="| Licensed under the MIT license | © 324Hz 2022 | v0.1.0.12 |"
-                   FontSize="15"
-                   FontFamily="Consolas"
-                   HorizontalAlignment="Center"
-                   VerticalAlignment="Bottom"
-                   Margin="0,0,0,10"></TextBlock>
+        </StackPanel>
     </Grid>
 </Page>

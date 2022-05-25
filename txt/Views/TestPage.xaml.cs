@@ -14,6 +14,9 @@ namespace txt.Views {
     public sealed partial class TestPage : Page {
         public TestPage() {
             InitializeComponent();
-        }    
+        }
+        private void Home_Click(object sender, RoutedEventArgs e) {
+            this.Frame.Navigate(typeof(HomePage));
+        }       
     }
 }
