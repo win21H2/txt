@@ -122,6 +122,9 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.12</Version>
     </PackageReference>
+    <PackageReference Include="Microsoft.Office.Interop.Word">
+      <Version>15.0.4797.1003</Version>
+    </PackageReference>
     <PackageReference Include="Microsoft.Toolkit.Mvvm">
       <Version>7.0.2</Version>
     </PackageReference>

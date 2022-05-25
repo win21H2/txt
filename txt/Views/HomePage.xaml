@@ -3,7 +3,7 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:muxc="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     Style="{StaticResource PageStyle}"
     Background="#36393f"
     mc:Ignorable="d">
@@ -15,29 +15,22 @@
                    FontFamily="Consolas"
                    HorizontalAlignment="Center"
                    Margin="0,10,0,0"></TextBlock>
-            <TextBlock Text="A open-source text editor&#x0a;&#x0a;Made with GitHub and by 324Hz"
-                   FontSize="15"
-                   FontFamily="Consolas"
-                   HorizontalAlignment="Center"
-                   TextAlignment="Center"
-                   Margin="0,10,0,0"></TextBlock>
 
             <RichEditBox x:Name="input"
-                     Width="1000"
-                     Height="600"
+                     HorizontalAlignment="Stretch"
+                     Height="700"
                      TextWrapping="Wrap"
                      CornerRadius="10"
                      Margin="0,100,0,0"
-                     PlaceholderText="Write away"
-                     IsReadOnly="False"
-                     TextChanged="PasswordBox1_PasswordChanged"/>
+                     PlaceholderText="Write away"/>
             <TextBlock x:Name="PasswordBox1"
                    HorizontalAlignment="Center"
                    VerticalAlignment="Bottom"
                    Margin="0,0,925,180"></TextBlock>
-
-            
         </StackPanel>
+        <!--TABVIEW IS NOT SUPPORTED YET BY MY APPLICATION CHECK OUT THE APP.XAML FILE
+        <muxc:TabView TabWidthMode="SizeToContent" />-->
+
         <Button Content="Home"
                 Background="#ff6363"
                 FontFamily="Consolas"

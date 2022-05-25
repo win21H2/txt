@@ -1,22 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
-using Windows.Storage;
-using Windows.Storage.Pickers;
-using Windows.Storage.Provider;
-using Windows.UI.Text;
+﻿using System.Collections.ObjectModel;
+using System;
+using System.Diagnostics;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
+using System.Linq;
+using Windows.System;
+using Windows.UI.Xaml.Automation;
 
 namespace txt.Views {
     /// <summary>
@@ -25,6 +14,6 @@ namespace txt.Views {
     public sealed partial class TestPage : Page {
         public TestPage() {
             InitializeComponent();
-        }
+        }    
     }
 }

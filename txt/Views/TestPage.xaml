@@ -9,7 +9,4 @@
     Style="{StaticResource PageStyle}"
     Background="#36393f">
 
-    <Grid>
-          
-    </Grid>
 </Page>
