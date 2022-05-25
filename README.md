@@ -66,3 +66,4 @@ TODO
  - ⛔ Figure out how to change the default dark and light theme colors (dark theme = 36393f & light theme = dcddde)
  - ⛔ Figure out how styling multiple TextBlocks in /Styles/TextBlock.xaml works
  - :white_check_mark: Remove all of th Grid.Row lines beause the mess up the styling and formatting of the application
+ - ⛔ Figure out how to build the project and load it as either a .zip or .exe so that others can install it 
