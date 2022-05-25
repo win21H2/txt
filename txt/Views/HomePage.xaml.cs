@@ -50,7 +50,6 @@ namespace txt.Views {
         private async void writeFile_Click(object sender, RoutedEventArgs e) {
             string textFilePath = await FileHelper.WriteTextFile(TEXT_FILE_NAME, textbox.Text);
         }
-
     }
 
     public static class FileHelper {
@@ -69,7 +68,6 @@ namespace txt.Views {
                     await textWriter.StoreAsync();
                 }
             }
-
             return textFile.Path;
         }
 
@@ -85,9 +83,7 @@ namespace txt.Views {
                     await textReader.LoadAsync(textLength);
                     contents = textReader.ReadString(textLength);
                 }
-
             }
-
             return contents;
         }
     }

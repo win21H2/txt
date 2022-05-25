@@ -10,7 +10,6 @@ namespace txt.Views {
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
     public sealed partial class TestPage : Page {
-        const string TEXT_FILE_NAME = "SampleTextFile.txt";
         public TestPage() {
             InitializeComponent();
         }

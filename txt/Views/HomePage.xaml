@@ -16,8 +16,7 @@
         </StackPanel>
         <TextBox x:Name="textbox"
                      TextWrapping="Wrap"
-                     HorizontalAlignment="Stretch"
-                     VerticalAlignment="Stretch"    
+                     HorizontalAlignment="Stretch" VerticalAlignment="Stretch"    
                      Margin="5,140,5,5"
                      x:FieldModifier="public"></TextBox>
 
@@ -43,26 +42,22 @@
                     FontFamily="Consolas" FontSize="11"
                     Margin="215,-30,0,0"
                     Click="Save_Click"
-                    VerticalAlignment="Top"
-                    HorizontalAlignment="Left" Height="30" Width="100"/>
+                    VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="100"/>
             <Button Content="Test"
                     FontFamily="Consolas" FontSize="11"
                     Margin="320,-30,0,0"
                     Click="Test_Click"
-                    VerticalAlignment="Top"
-                    HorizontalAlignment="Left" Height="30" Width="100"/>
+                    VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="100"/>
             <Button Content="Write"
                     FontFamily="Consolas" FontSize="11"
                     Margin="425,-30,0,0"
                     Click="writeFile_Click"
-                    VerticalAlignment="Top"
-                    HorizontalAlignment="Left" Height="30" Width="100"/>
+                    VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="100"/>
             <Button Content="Read"
                     FontFamily="Consolas" FontSize="11"
                     Margin="530,-30,0,0"
                     Click="readFile_Click"
-                    VerticalAlignment="Top"
-                    HorizontalAlignment="Left" Height="30" Width="100"/>
+                    VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="100"/>
         </StackPanel>
     </Grid>
 </Page>
