@@ -51,6 +51,12 @@ Milestones
 
 -------------------------------------------------
 
+05/25/2022
+> - Removed the richedit box and swapped it with a textbox
+> - Started testing with writing files to the app's local storage
+
+-------------------------------------------------
+
 
 TODO
  - ⛔ Add a system which asks if the user wants to exit the application (most likely with a "save" button to save the text that the user inputted
