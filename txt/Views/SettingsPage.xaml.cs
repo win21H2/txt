@@ -1,5 +1,4 @@
-﻿using System;
-using txt.ViewModels;
+﻿using txt.ViewModels;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;

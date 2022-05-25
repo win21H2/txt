@@ -4,49 +4,43 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:muxc="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     Style="{StaticResource PageStyle}"
     Background="#36393f"
     mc:Ignorable="d">
     <Grid x:Name="ContentArea">
         <StackPanel>
             <TextBlock Text="txt"
-                   FontSize="20"
-                   FontFamily="Consolas"
+                   FontSize="20" FontFamily="Consolas"
                    HorizontalAlignment="Center"
                    Margin="0,5,0,0"></TextBlock>
         </StackPanel>
         <TextBox x:Name="input"
-                 HorizontalAlignment="Stretch"
-                 VerticalAlignment="Stretch"
+                 HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
                  TextWrapping="Wrap"
                  Margin="5,40,5,5"></TextBox>
         <StackPanel>
             <Button Content="Settings"
-                FontFamily="Consolas"
-                FontSize="11"
+                FontFamily="Consolas" FontSize="11"
                 Margin="5,5,0,0"
                 Click="Settings_Click"
-                VerticalAlignment="Top"
-                Height="30"
-                Width="100"/>
+                VerticalAlignment="Top" Height="30" Width="100"/>
             <Button Content="Version"
-                FontFamily="Consolas"
-                FontSize="11"
+                FontFamily="Consolas" FontSize="11"
                 Margin="110,-30,0,0"
                 Click="Version_Click"
-                VerticalAlignment="Top"
-                Height="30"
-                Width="100"/>
+                VerticalAlignment="Top" Height="30" Width="100"/>
             <Button Content="Save"
-                FontFamily="Consolas"
-                FontSize="11"
+                FontFamily="Consolas" FontSize="11"
                 Margin="215,-30,0,0"
                 Click="Save_Click"
                 VerticalAlignment="Top"
-                HorizontalAlignment="Left"
-                Height="30"
-                Width="100"/>
+                HorizontalAlignment="Left" Height="30" Width="100"/>
+            <Button Content="Test"
+                FontFamily="Consolas" FontSize="11"
+                Margin="320,-30,0,0"
+                Click="Test_Click"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left" Height="30" Width="100"/>
         </StackPanel>
     </Grid>
 </Page>
