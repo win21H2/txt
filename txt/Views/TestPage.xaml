@@ -9,14 +9,9 @@
     Background="#36393f">
     <Grid>
         <Button Content="Home"
-                Background="#ff6363"
-                FontFamily="Consolas"
-                VerticalAlignment="Top"
-                FontSize="11"
-                CornerRadius="10" 
-                Margin="10,10,0,0"
-                Click="Home_Click"
-                Height="30"
-                Width="100"/>
+                    FontFamily="Consolas" FontSize="11"
+                    Margin="5,5,0,0"
+                    Click="Home_Click"
+                    VerticalAlignment="Top" Height="30" Width="100"/>
     </Grid>
 </Page>
