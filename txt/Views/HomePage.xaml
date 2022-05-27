@@ -20,14 +20,12 @@
                      Margin="5,140,5,5"
                      x:FieldModifier="public"
                      IsSpellCheckEnabled="False"></TextBox>
-
         <TextBlock x:Name = "textBlock"
                    HorizontalAlignment="Stretch" VerticalAlignment = "Top"
                    Margin = "5,40,5,5"
                    TextAlignment="Center"
                    TextWrapping = "Wrap"
                    Height = "100"/>
-
         <StackPanel>
             <Button Content="Settings"
                     FontFamily="Consolas" FontSize="11"
@@ -39,16 +37,25 @@
                     Margin="110,-30,0,0"
                     Click="Version_Click"
                     VerticalAlignment="Top" Height="30" Width="100"/>
-            <Button Content="Write file"
-                    FontFamily="Consolas" FontSize="11"
-                    Margin="215,-30,0,0"
-                    Click="writeFile_Click"
-                    VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="100"/>
-            <Button Content="Read file"
+            <StackPanel>
+
+                <Button Content="Read file"
                     FontFamily="Consolas" FontSize="11"
                     Margin="320,-30,0,0"
                     Click="readFile_Click"
                     VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="100"/>
+            </StackPanel>
+
+            <StackPanel>
+                <Button Content="Write file"
+                    FontFamily="Consolas" FontSize="11"
+                    Margin="215,-30,0,0"
+                    Click="writeFile_Click"
+                    VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="100"/>
+                <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top"
+                   Text="Write success"
+                   Margin="225,0,0,0"></TextBlock>
+            </StackPanel>
         </StackPanel>
     </Grid>
 </Page>
