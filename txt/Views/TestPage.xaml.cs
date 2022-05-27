@@ -14,7 +14,7 @@ namespace txt.Views {
             InitializeComponent();
         }
         private void Home_Click(object sender, RoutedEventArgs e) {
-            this.Frame.Navigate(typeof(HomePage));
+            Frame.Navigate(typeof(HomePage));
         }
     }
 }

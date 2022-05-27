@@ -40,21 +40,23 @@
             <StackPanel>
 
                 <Button Content="Read file"
-                    FontFamily="Consolas" FontSize="11"
-                    Margin="320,-30,0,0"
-                    Click="readFile_Click"
-                    VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="100"/>
+                        FontFamily="Consolas" FontSize="11"
+                        Margin="320,-30,0,0"
+                        Click="readFile_Click"
+                        VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="100"/>
             </StackPanel>
 
             <StackPanel>
                 <Button Content="Write file"
-                    FontFamily="Consolas" FontSize="11"
-                    Margin="215,-30,0,0"
-                    Click="writeFile_Click"
-                    VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="100"/>
+                        FontFamily="Consolas" FontSize="11"
+                        Margin="215,-30,0,0"
+                        Click="writeFile_Click"
+                        VerticalAlignment="Top" HorizontalAlignment="Left" Height="30" Width="100"/>
                 <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top"
-                   Text="Write success"
-                   Margin="225,0,0,0"></TextBlock>
+                           Text="Write success"
+                           FontFamily="Consolas"
+                           FontSize="11"
+                           Margin="227,5,0,0"></TextBlock>
             </StackPanel>
         </StackPanel>
     </Grid>

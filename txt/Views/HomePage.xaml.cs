@@ -15,18 +15,10 @@ namespace txt.Views {
             InitializeComponent();
         }
         private void Settings_Click(object sender, RoutedEventArgs e) {
-            this.Frame.Navigate(typeof(SettingsPage));
+            Frame.Navigate(typeof(SettingsPage));
         }
         private void Version_Click(object sender, RoutedEventArgs e) {
-            this.Frame.Navigate(typeof(VersionPage));
-        }
-
-        private async void Home_Click(object sender, RoutedEventArgs e) {
-            ContentDialog dialog = new ContentDialog();
-            dialog.Title = "You are already on the home page!";
-            dialog.PrimaryButtonText = "Ok";
-            dialog.DefaultButton = ContentDialogButton.Primary;
-            var result = await dialog.ShowAsync();
+            Frame.Navigate(typeof(VersionPage));
         }
 
         private async void readFile_Click(object sender, RoutedEventArgs e) {
