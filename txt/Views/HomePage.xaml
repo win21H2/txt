@@ -17,15 +17,19 @@
         <TextBox x:Name="textbox"
                      TextWrapping="Wrap"
                      HorizontalAlignment="Stretch" VerticalAlignment="Stretch"    
-                     Margin="5,140,5,5"
+                     Margin="5,200,5,5"
                      x:FieldModifier="public"
                      IsSpellCheckEnabled="False"></TextBox>
-        <TextBlock x:Name = "textBlock"
-                   HorizontalAlignment="Stretch" VerticalAlignment = "Top"
-                   Margin = "5,40,5,5"
-                   TextAlignment="Center"
-                   TextWrapping = "Wrap"
-                   Height = "100"/>
+
+        <ScrollViewer HorizontalAlignment="Stretch" VerticalAlignment = "Top"
+                      Margin = "5,40,5,5"
+                      Height = "140">
+            <RichTextBlock x:Name = "textBlock"
+                       TextAlignment="Center"
+                       TextWrapping = "Wrap"/>
+        </ScrollViewer>
+
+
         <StackPanel>
             <Button Content="Settings"
                     FontFamily="Consolas" FontSize="11"

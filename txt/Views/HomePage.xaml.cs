@@ -5,6 +5,7 @@ using Windows.Storage;
 using Windows.Storage.Streams;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Documents;
 
 namespace txt.Views {
     public sealed partial class HomePage : Page {
@@ -22,8 +23,8 @@ namespace txt.Views {
         }
 
         private async void readFile_Click(object sender, RoutedEventArgs e) {
-            string str = await FileHelper.ReadTextFile(TEXT_FILE_NAME);
-            textBlock.Text = "You entered \n\n" + str;
+            string str = await FileHelper.ReadTextFile(TEXT_FILE_NAME);          
+            textBlock.Text = str;
             // Work on reading the file from a different folder
 
             // Check here: https://docs.microsoft.com/en-us/windows/communitytoolkit/helpers/storagefiles
