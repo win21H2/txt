@@ -16,16 +16,14 @@ txt is an open source text editor that I built because I started findng all of t
 txt is a super light-weight text editor which although has a lot less fucntions compared to a regular text editor (like Windows Notepad), it has other features such as a file viewer (which is still under development)
 <br>
 <br>
-<h3 align="center">Platform limitations</h3>
+<h3 align="center">Platform limitations and notices</h3>
 <p align="center">
 ❗The file read option reads text from the file but does not put it in the TextBox
 <br>
 ❗Currently there is no .exe file for this application
+<br>
+❗txt is still under development
 </p>
-<br>
-<br>
-<h3 align="center">Notices</h3>
-<p align="center">❗txt is still under development</p>
 <br>
 <br>
 <p align="center"><a href="https://www.buymeacoffee.com/324Hz" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a></p>
