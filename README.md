@@ -1,18 +1,11 @@
-<p align="center">
-  <img width="128" align="center" src="">
-</p>
+<!--<p align="center">
+  <img width="128" align="center" src="txt/txt/LargeTile.scale-100.png">
+</p>-->
 
-# txt
+<h1 align="center">txt</h1>
+<p align="center">README v0.1.3 <br>APP v0.2.2 test release</p>
+<p align="center">An open-source text editor built with Visual Studio</p>
+<p align="center">******* !txt is still under active development! *******</p><br>
 
-> Hopefully I will be able to create a text editor although dont expect it to look good :)
-<br>
-<br>
-Milestones
-
-TODO
- - ⛔ Add a system which asks if the user wants to exit the application (most likely with a "save" button to save the text that the user inputted
- - :white_check_mark: Test with different colors for the background of the application to see which ones/a combo of ones work best
- - ⛔ Figure out how to change the default dark and light theme colors (dark theme = 36393f & light theme = dcddde)
- - ⛔ Figure out how styling multiple TextBlocks in /Styles/TextBlock.xaml works
- - :white_check_mark: Remove all of th Grid.Row lines beause the mess up the styling and formatting of the application
- - ⛔ Figure out how to build the project and load it as either a .zip or .exe so that others can install it
+##### What is txt?<br>
+txt is an open source text editor that I built because I started findng all of these different text editors a bit too much and I wanted to go for a minimal design which still has the functionality of a regular text editor (like Windows Notepad)
