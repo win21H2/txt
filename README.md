@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="128" align="center" src="">
+</p>
+
 # txt
 
 > Hopefully I will be able to create a text editor although dont expect it to look good :)
