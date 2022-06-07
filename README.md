@@ -5,7 +5,6 @@
 <img src="https://img.shields.io/badge/Latest%20Version-v0.1.0.13-blue?style=flat-square&logo=appveyor" alt="Releases" />
 <img src="https://img.shields.io/badge/Platform-Windows%2FUWP-orange?style=flat-square&logo=appveyor" alt="Platform" />
 <img src="https://img.shields.io/badge/Build-Pass-green?style=flat-square&logo=appveyor" alt="Build" />
-<img src="https://img.shields.io/badge/Issue Tracker-3 open & 3 closed-red?style=flat-square&logo=appveyor" alt="Issue" />
 </p>
 
 ##### What is txt?<br>
@@ -20,7 +19,7 @@ txt is a super light-weight text editor which although has a lot less fucntions 
 <p align="center">
 ❗The file read option reads text from the file but does not put it in the TextBox
 <br>
-❗Currently there is no .exe file for this application
+❗Currently there is no .exe file for this application although you can run it via Visual Studio
 <br>
 ❗txt is still under development
 </p>
